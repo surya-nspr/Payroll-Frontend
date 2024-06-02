@@ -1,0 +1,33 @@
+/* Add Employee Form Styling */
+.container {
+    margin-top: 50px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .btn-success,
+  .btn-secondary {
+    margin-right: 10px;
+  }
+  
+  /* Update Employee Form Styling */
+  h2 {
+    margin-top: 50px;
+    text-align: center;
+  }
+  
+  .form-control {
+    margin-bottom: 15px;
+  }
+  
+  .col-md-6 {
+    float: left;
+    width: 50%;
+    padding: 0 15px;
+    box-sizing: border-box;
+  }
+  
+  /* Additional styles can be added as needed */
+  

@@ -1,0 +1,39 @@
+.colored-table {
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 800px;
+    overflow: auto;
+  }
+  
+  .colored-table table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: transparent;
+  }
+  
+  .colored-table th,
+  .colored-table td {
+    text-align: center;
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .colored-table th {
+    background-color: #00b0f0;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .colored-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .colored-table tr:hover {
+    background-color: #ddd;
+  }
+  
+  .colored-table .highlight-row {
+    background-color: #ffffe6;
+  }
+  
